@@ -6,7 +6,7 @@
 }
 .header
 {
-    min-height: 100vh;
+    height: 70px;
     background-color:#29293A ;
     width: 100%;
     background-position:center;
@@ -60,25 +60,42 @@ nav a
 {
    width: 100%;
 }
+.home
+{
+    background-image: url(../images/Moon\ Base.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home_box 
+{
+    display: flex;
+    justify-content: space-between;
+} 
+
 .text-box
 {
-    width: 90%;
+  
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 60%;   
+    margin-top: 80px; 
+    margin-left: 40px;
     text-align: center;
 
 }
 .text-box h1
 {
-    font-size: 62px;
+    font-size: 40px;
 
+}
+.name 
+{
+    color: #3E3EF5;
 }
 .text-box p
 {
-    margin: 10px 0px 40px;
     font-size: 20px;
 
 
@@ -88,10 +105,12 @@ nav a
      display: inline-block;
      text-decoration: none;
      border: 1px solid white;
-     padding: 18px 40px;
+     padding: 5px 10px;
      font-size: 16px;
+     border-radius: 10px;
      background: transparent;
      position: relative;
+     top: 10px;
      cursor: pointer;
      color: white;
      transition: 1s;
@@ -102,6 +121,19 @@ nav a
     background: #3E3EF5;
 
 }
+
+.image_home
+{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    right: 20px;
+    border-radius: 50%;
+  
+
+}
+
 nav .fa
 {
     display: none;
