@@ -469,6 +469,17 @@ section {
   border: 2px solid #3E3EF5;
 }
 
+.resume-button
+{
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+.resume-button:hover
+{
+  color: #3E3EF5 ;
+}
+
 
 /*--------------------------------------------------------------
 # Services
